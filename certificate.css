@@ -33,26 +33,3 @@ main {
   width: 100%;
   height: auto;
 }
-
-/* Add animation styles for the slideshow */
-@keyframes slidefade {
-  0% { opacity: 0; }
-  20% { opacity: 1; }
-  80% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-.slide {
-  animation: slidefade 5s linear infinite;
-}
-
-.slide:nth-child(1) {
-  animation-delay: 10s;
-}
-
-.slide:nth-child(2) {
-  animation-delay: 10s;
-}
-
-/* Add more animation-delay values for additional slides */
-
